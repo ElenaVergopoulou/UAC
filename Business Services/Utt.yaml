@@ -1,0 +1,7 @@
+description: This is the Utt business service
+exportReleaseLevel: 7.3.0.0
+exportTable: ops_generic_group
+name: Utt
+retainSysIds: true
+sysId: 499dad43523d4423a2cfe117243a5ca3
+version: 2
