@@ -1,0 +1,27 @@
+adjustment: None
+adjustmentAmount: 1
+adjustmentType: Day
+category: Holiday
+comments: This is a holiday
+ctype: Absolute Repeating Date
+date: null
+dateList: []
+day: 4
+dayofweek: Sun
+exportReleaseLevel: 7.3.0.0
+exportTable: ops_custom_day
+holiday: true
+month: Jul
+name: Utt Independence Day
+nthAmount: 1
+nthType: Day
+observedRules:
+- actualDayOfWeek: Sat
+  observedDayOfWeek: Fri
+- actualDayOfWeek: Sun
+  observedDayOfWeek: Mon
+period: false
+relfreq: 1st
+retainSysIds: true
+sysId: a0c85bb8083a4e2eb6130896b6c589e0
+version: 4
