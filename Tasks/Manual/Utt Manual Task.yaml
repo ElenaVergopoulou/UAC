@@ -1,0 +1,112 @@
+actions:
+  abortActions: []
+  emailNotifications:
+  - attachLocalFile: false
+    bcc: null
+    body: null
+    cc: null
+    description: null
+    emailConnection: null
+    emailTemplate: Utt Manual Email Template
+    emailTemplateVar: null
+    exitCodes: null
+    listReportFormat: PDF
+    notifyOnEarlyFinish: false
+    notifyOnLateFinish: false
+    notifyOnLateStart: false
+    notifyOnProjectedLate: false
+    replyTo: null
+    report: null
+    reportVar: null
+    status: Defined
+    subject: null
+    sysId: 25d50b77dc544657aef008aa34937e98
+    to: null
+  setVariableActions: []
+  snmpNotifications: []
+  systemOperations: []
+avgRunTime: 40
+avgRunTimeDisplay: 40 Seconds
+cpDuration: null
+cpDurationUnit: Minutes
+customField1:
+  label: null
+  value: null
+customField2:
+  label: null
+  value: null
+efDayConstraint: None
+efDuration: 00:00:00:00
+efEnabled: false
+efNthAmount: 5
+efOffsetDuration: null
+efOffsetDurationUnit: Minutes
+efOffsetPercentage: 0
+efOffsetType: Percentage
+efTime: 00:00
+efType: Time
+exclusiveTasks: []
+exclusiveWithSelf: false
+executionRestriction: None
+exportReleaseLevel: 7.3.0.0
+exportTable: ops_task_manual
+firstRun: 2022-01-28 09:29:39 -0500
+holdResources: false
+lastRun: 2022-01-28 12:14:10 -0500
+lastRunTime: 6
+lastRunTimeDisplay: 6 Seconds
+lfDayConstraint: None
+lfDuration: 00:00:00:00
+lfEnabled: false
+lfNthAmount: 5
+lfOffsetDuration: null
+lfOffsetDurationUnit: Minutes
+lfOffsetPercentage: 0
+lfOffsetType: Percentage
+lfTime: 00:00
+lfType: Time
+logLevel: Inherited
+lsDayConstraint: None
+lsDuration: 00:00:00:00
+lsEnabled: false
+lsNthAmount: 5
+lsTime: 00:00
+lsType: Time
+maxRunTime: 160
+maxRunTimeDisplay: 2 Minutes 40 Seconds
+minRunTime: 6
+minRunTimeDisplay: 6 Seconds
+name: Utt Manual Task
+notes: []
+opswiseGroups:
+- Utt
+resPriority: 10
+resolveNameImmediately: false
+restrictionPeriod: None
+restrictionPeriodAfterDate: null
+restrictionPeriodAfterTime: null
+restrictionPeriodBeforeDate: null
+restrictionPeriodBeforeTime: null
+restrictionPeriodDateList: []
+retainSysIds: true
+runCount: 8
+runTime: 319
+startHeld: false
+startHeldReason: null
+summary: null
+sysId: 3fb020a971594a849a7b60703a24b7a6
+timeZonePref: -- System Default --
+twDelayAmount: null
+twDelayDuration: 00:00:00:00
+twDelayType: None
+twWaitAmount: null
+twWaitDayConstraint: None
+twWaitDuration: 00:00:00:00
+twWaitTime: 00:00
+twWaitType: None
+twWorkflowOnly: -- System Default --
+type: taskManual
+userEstimatedDuration: null
+variables: []
+version: 4
+virtualResources: []
