@@ -1,0 +1,93 @@
+action: Do Not Trigger
+adjustInterval: false
+adjustmentAmount: 1
+adjustmentType: Day
+calendar: Utt Calendar
+customField1:
+  label: null
+  value: null
+customField2:
+  label: null
+  value: null
+dateAdjective: Every
+dateAdjustment: None
+dateNoun:
+  value: Day
+dateNouns:
+- value: Day
+dateQualifier:
+  value: Year
+dateQualifiers:
+- value: Year
+dayInterval: 2
+dayStyle: Simple
+description: This is a trigger that runs every hour at :30 minutes past the hour
+disabledBy: ''
+disabledTime: ''
+enabled: true
+enabledBy: gutt
+enabledEnd: 00:00
+enabledStart: 00:00
+enabledTime: 2022-12-09 14:39:01 -0500
+exportReleaseLevel: 7.3.0.0
+exportTable: ops_trigger_time
+forecast: false
+fri: false
+intervalStartingDate: '2022-01-28'
+mon: false
+name: Utt Trigger File
+nextScheduledTime: 2023-08-01 04:30:00 -0400
+notes: []
+nthAmount: 5
+opswiseGroups:
+- Utt
+rdExcludeBackup: false
+restrictedTimes: false
+restriction: false
+restrictionAdjective: Every
+restrictionComplex: false
+restrictionMode: Or
+restrictionNoun:
+  value: Day
+restrictionNouns:
+- value: Day
+restrictionNthAmount: 5
+restrictionQualifier:
+  value: Year
+restrictionQualifiers:
+- value: Year
+restrictionSimple: false
+retainSysIds: true
+retentionDuration: 1
+retentionDurationPurge: false
+retentionDurationUnit: Days
+sat: false
+simpleDateType: Business Days
+simulationOption: -- System Default --
+situation: Holiday
+skipActive: false
+skipAfterDate: null
+skipAfterTime: null
+skipBeforeDate: null
+skipBeforeTime: null
+skipCondition: None
+skipCount: 0
+skipDateList: []
+skipRestriction: None
+startTimeEnable: true
+startingAt: '*:30'
+sun: false
+sysId: 925ed36675414b86bd477e131ecbf4f9
+tasks:
+- Utt Create File
+thu: false
+time: 00:00
+timeInterval: 1
+timeIntervalUnits: Hours
+timeStyle: Interval
+timeZone: America/New_York
+tue: false
+type: triggerTime
+variables: []
+version: 12
+wed: false
