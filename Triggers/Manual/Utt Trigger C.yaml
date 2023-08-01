@@ -1,0 +1,30 @@
+calendar: Utt Calendar
+customField1:
+  label: null
+  value: null
+customField2:
+  label: null
+  value: null
+description: This is a manual trigger
+disabledTime: ''
+enabled: false
+enabledTime: ''
+exportReleaseLevel: 7.3.0.0
+exportTable: ops_trigger_manual
+name: Utt Trigger C
+nextScheduledTime: ''
+notes: []
+opswiseGroups:
+- Utt
+rdExcludeBackup: false
+retainSysIds: true
+retentionDuration: 1
+retentionDurationPurge: false
+retentionDurationUnit: Days
+sysId: 2b2be08b9acc46ada140c8506ff4369b
+tasks:
+- Utt Workflow C
+timeZone: America/New_York
+type: triggerManual
+variables: []
+version: 4
