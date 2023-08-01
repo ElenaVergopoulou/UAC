@@ -1,0 +1,23 @@
+adjustment: None
+adjustmentAmount: 1
+adjustmentType: Day
+category: Holiday
+comments: This is a holiday
+ctype: Relative Repeating Date
+date: null
+dateList: []
+day: 1
+dayofweek: Thu
+exportReleaseLevel: 7.3.0.0
+exportTable: ops_custom_day
+holiday: true
+month: Nov
+name: Utt Thanksgiving Day
+nthAmount: 1
+nthType: Day
+observedRules: []
+period: false
+relfreq: 4th
+retainSysIds: true
+sysId: 163e8dc1337b4060ba03d66abfcd8e67
+version: 2
