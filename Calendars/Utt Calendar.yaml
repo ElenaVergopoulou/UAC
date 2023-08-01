@@ -1,0 +1,46 @@
+businessDays:
+  value: Monday,Tuesday,Wednesday,Thursday,Friday
+comments: This is the calendar for Utt
+customDays:
+- name: Utt Independence Day
+  sysId: 1564b894003a422bb2e4dc5fff27366f
+- name: Utt Labor Day
+  sysId: 1f2ad59ef96a48609689acc21c8c63c4
+- name: Utt Veterans Day
+  sysId: 3475f225745f4f608507daa0b9ecbd55
+- name: Utt Columbus Day
+  sysId: 6b2b3576ebc540b0896aee1b71fce3bf
+- name: Utt Thanksgiving Day
+  sysId: 8fbcd6e618284b69b4f1123c5a287e4b
+- name: Utt New Years Day
+  sysId: b7bd09152e6e4950817aae5bbffb454e
+- name: Utt Memorial Day
+  sysId: cde2385dc379445db1d5b527c6e475f6
+- name: Utt Juneteenth
+  sysId: ce52e3b402da4edd98c982d8097150ea
+- name: Utt Christmas Day
+  sysId: e9c9a3e1f530474aa42b081a88a7408c
+- name: Utt Martin Luther King Jr. Day
+  sysId: fd3499d6b3e94ab19fb8501d0ac469c7
+exportReleaseLevel: 7.3.0.0
+exportTable: ops_calendar
+firstDayOfWeek: Sunday
+firstQuarterStart:
+  day: '1'
+  month: Jan
+fourthQuarterStart:
+  day: '1'
+  month: Oct
+localCustomDays: []
+name: Utt Calendar
+opswiseGroups:
+- Utt
+retainSysIds: true
+secondQuarterStart:
+  day: '1'
+  month: Apr
+sysId: d2236aa475d84219b158ac8c876b4028
+thirdQuarterStart:
+  day: '1'
+  month: Jul
+version: 6
