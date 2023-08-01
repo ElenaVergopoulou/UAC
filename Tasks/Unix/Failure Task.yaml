@@ -1,0 +1,129 @@
+actions:
+  abortActions: []
+  emailNotifications: []
+  setVariableActions:
+  - description: null
+    exitCodes: null
+    notificationOption: Operation Failure
+    notifyOnEarlyFinish: false
+    notifyOnLateFinish: false
+    notifyOnLateStart: false
+    notifyOnProjectedLate: false
+    status: Defined
+    sysId: ee5fd05d866a41e1bc00f6d5f3801bc6
+    variableName: business_services
+    variableScope: Self
+    variableValue: ${_businessServices()}
+  snmpNotifications: []
+  systemOperations: []
+agent: s3468talv
+agentCluster: null
+agentClusterVar: null
+agentVar: null
+broadcastCluster: null
+broadcastClusterVar: null
+command: exit 1
+commandOrScript: Command
+cpDuration: null
+cpDurationUnit: Minutes
+credentials: null
+credentialsVar: null
+customField1:
+  label: null
+  value: MyApp
+customField2:
+  label: null
+  value: null
+efDayConstraint: None
+efDuration: 00:00:00:00
+efEnabled: false
+efNthAmount: 5
+efOffsetDuration: null
+efOffsetDurationUnit: Minutes
+efOffsetPercentage: 0
+efOffsetType: Percentage
+efTime: 00:00
+efType: Time
+environment: []
+exclusiveTasks: []
+exclusiveWithSelf: false
+executionRestriction: None
+exitCodeOutput: null
+exitCodeProcessing: Success Exitcode Range
+exitCodeText: null
+exitCodes: '0'
+exportReleaseLevel: 7.3.0.0
+exportTable: ops_task_unix
+firstRun: ''
+holdResources: false
+lastRun: ''
+lfDayConstraint: None
+lfDuration: 00:00:00:00
+lfEnabled: false
+lfNthAmount: 5
+lfOffsetDuration: null
+lfOffsetDurationUnit: Minutes
+lfOffsetPercentage: 0
+lfOffsetType: Percentage
+lfTime: 00:00
+lfType: Time
+logLevel: Inherited
+lsDayConstraint: None
+lsDuration: 00:00:00:00
+lsEnabled: false
+lsNthAmount: 5
+lsTime: 00:00
+lsType: Time
+name: Failure Task
+notes: []
+opswiseGroups:
+- EW
+- NSM
+- Utt
+outputFailureOnly: false
+outputReturnFile: null
+outputReturnNline: '100'
+outputReturnSline: '1'
+outputReturnText: null
+outputReturnType: NONE
+outputType: STDOUT
+parameters: null
+resPriority: 10
+resolveNameImmediately: false
+restrictionPeriod: None
+restrictionPeriodAfterDate: null
+restrictionPeriodAfterTime: null
+restrictionPeriodBeforeDate: null
+restrictionPeriodBeforeTime: null
+restrictionPeriodDateList: []
+retainSysIds: true
+retryExitCodes: null
+retryIndefinitely: false
+retryInterval: 60
+retryMaximum: 0
+retrySuppressFailure: false
+runAsSudo: false
+runCount: 0
+runTime: 0
+runtimeDir: null
+script: null
+startHeld: false
+startHeldReason: null
+summary: This task will fail
+sysId: a294ece7fd8844d79e0d50db5854a7c5
+timeZonePref: -- System Default --
+twDelayAmount: null
+twDelayDuration: 00:00:00:00
+twDelayType: None
+twWaitAmount: null
+twWaitDayConstraint: None
+twWaitDuration: 00:00:00:00
+twWaitTime: 00:00
+twWaitType: None
+twWorkflowOnly: -- System Default --
+type: taskUnix
+userEstimatedDuration: null
+variables: []
+version: 3
+virtualResources: []
+waitForOutput: false
