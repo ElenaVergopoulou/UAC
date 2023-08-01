@@ -1,0 +1,23 @@
+adjustment: None
+adjustmentAmount: 1
+adjustmentType: Day
+category: Holiday
+comments: This is a holiday
+ctype: Absolute Repeating Date
+date: null
+dateList: []
+day: 11
+dayofweek: Sun
+exportReleaseLevel: 7.3.0.0
+exportTable: ops_custom_day
+holiday: true
+month: Nov
+name: Utt Veterans Day
+nthAmount: 1
+nthType: Day
+observedRules: []
+period: false
+relfreq: 1st
+retainSysIds: true
+sysId: b882fc65f3af4f759c9b1259a4bcb6fd
+version: 2
