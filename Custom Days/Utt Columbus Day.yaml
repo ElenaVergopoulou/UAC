@@ -1,0 +1,23 @@
+adjustment: None
+adjustmentAmount: 1
+adjustmentType: Day
+category: Holiday
+comments: This is a holiday
+ctype: Relative Repeating Date
+date: null
+dateList: []
+day: 1
+dayofweek: Mon
+exportReleaseLevel: 7.3.0.0
+exportTable: ops_custom_day
+holiday: true
+month: Oct
+name: Utt Columbus Day
+nthAmount: 1
+nthType: Day
+observedRules: []
+period: false
+relfreq: 2nd
+retainSysIds: true
+sysId: 394628e489a1423fac5fec92a5ae8c5a
+version: 2
