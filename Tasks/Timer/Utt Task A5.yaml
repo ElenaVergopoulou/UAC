@@ -1,0 +1,87 @@
+actions:
+  abortActions: []
+  emailNotifications: []
+  setVariableActions: []
+  snmpNotifications: []
+  systemOperations: []
+avgRunTime: 10
+avgRunTimeDisplay: 10 Seconds
+cpDuration: null
+cpDurationUnit: Minutes
+customField1:
+  label: null
+  value: null
+customField2:
+  label: null
+  value: null
+efDayConstraint: None
+efDuration: 00:00:00:00
+efEnabled: false
+efNthAmount: 5
+efOffsetDuration: null
+efOffsetDurationUnit: Minutes
+efOffsetPercentage: 0
+efOffsetType: Percentage
+efTime: 00:00
+efType: Time
+exclusiveTasks: []
+exclusiveWithSelf: false
+executionRestriction: None
+exportReleaseLevel: 7.3.0.0
+exportTable: ops_task_sleep
+firstRun: 2022-01-28 08:10:22 -0500
+holdResources: false
+lastRun: 2023-08-01 03:17:57 -0400
+lastRunTime: 12
+lastRunTimeDisplay: 12 Seconds
+lfDayConstraint: None
+lfDuration: 00:00:00:00
+lfEnabled: false
+lfNthAmount: 5
+lfOffsetDuration: null
+lfOffsetDurationUnit: Minutes
+lfOffsetPercentage: 0
+lfOffsetType: Percentage
+lfTime: 00:00
+lfType: Time
+logLevel: Inherited
+lsDayConstraint: None
+lsDuration: 00:00:00:00
+lsEnabled: false
+lsNthAmount: 5
+lsTime: 00:00
+lsType: Time
+maxRunTime: 12
+maxRunTimeDisplay: 12 Seconds
+minRunTime: 10
+minRunTimeDisplay: 10 Seconds
+name: Utt Task A5
+notes: []
+opswiseGroups:
+- Utt
+resPriority: 10
+resolveNameImmediately: false
+restrictionPeriod: None
+restrictionPeriodAfterDate: null
+restrictionPeriodAfterTime: null
+restrictionPeriodBeforeDate: null
+restrictionPeriodBeforeTime: null
+restrictionPeriodDateList: []
+retainSysIds: true
+runCount: 9348
+runTime: 93660
+sleepAmount: '12'
+sleepDayConstraint: None
+sleepDuration: 00:00:00:00
+sleepTime: 00:00
+sleepType: Seconds
+startHeld: false
+startHeldReason: null
+summary: This task runs for 12 seconds
+sysId: ba11e3b6245b452f8e2ae4cccb4d26ec
+timeZonePref: -- System Default --
+type: taskSleep
+userEstimatedDuration: null
+variables: []
+version: 9
+virtualResources: []
