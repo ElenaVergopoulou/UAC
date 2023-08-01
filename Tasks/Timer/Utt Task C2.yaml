@@ -1,0 +1,87 @@
+actions:
+  abortActions: []
+  emailNotifications: []
+  setVariableActions: []
+  snmpNotifications: []
+  systemOperations: []
+avgRunTime: 30
+avgRunTimeDisplay: 30 Seconds
+cpDuration: null
+cpDurationUnit: Minutes
+customField1:
+  label: null
+  value: null
+customField2:
+  label: null
+  value: null
+efDayConstraint: None
+efDuration: 00:00:00:00
+efEnabled: false
+efNthAmount: 5
+efOffsetDuration: null
+efOffsetDurationUnit: Minutes
+efOffsetPercentage: 0
+efOffsetType: Percentage
+efTime: 00:00
+efType: Time
+exclusiveTasks: []
+exclusiveWithSelf: false
+executionRestriction: None
+exportReleaseLevel: 7.3.0.0
+exportTable: ops_task_sleep
+firstRun: 2022-01-28 09:32:41 -0500
+holdResources: false
+lastRun: 2022-01-28 12:15:10 -0500
+lastRunTime: 30
+lastRunTimeDisplay: 30 Seconds
+lfDayConstraint: None
+lfDuration: 00:00:00:00
+lfEnabled: false
+lfNthAmount: 5
+lfOffsetDuration: null
+lfOffsetDurationUnit: Minutes
+lfOffsetPercentage: 0
+lfOffsetType: Percentage
+lfTime: 00:00
+lfType: Time
+logLevel: Inherited
+lsDayConstraint: None
+lsDuration: 00:00:00:00
+lsEnabled: false
+lsNthAmount: 5
+lsTime: 00:00
+lsType: Time
+maxRunTime: 30
+maxRunTimeDisplay: 30 Seconds
+minRunTime: 30
+minRunTimeDisplay: 30 Seconds
+name: Utt Task C2
+notes: []
+opswiseGroups:
+- Utt
+resPriority: 10
+resolveNameImmediately: false
+restrictionPeriod: None
+restrictionPeriodAfterDate: null
+restrictionPeriodAfterTime: null
+restrictionPeriodBeforeDate: null
+restrictionPeriodBeforeTime: null
+restrictionPeriodDateList: []
+retainSysIds: true
+runCount: 6
+runTime: 180
+sleepAmount: '30'
+sleepDayConstraint: None
+sleepDuration: 00:00:00:00
+sleepTime: 00:00
+sleepType: Seconds
+startHeld: false
+startHeldReason: null
+summary: This task runs for 30 seconds
+sysId: 7a8d1ffe22e84145909daa1d7a8e3763
+timeZonePref: -- System Default --
+type: taskSleep
+userEstimatedDuration: null
+variables: []
+version: 13
+virtualResources: []
