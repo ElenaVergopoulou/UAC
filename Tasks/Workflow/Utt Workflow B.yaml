@@ -1,0 +1,241 @@
+actions:
+  abortActions: []
+  emailNotifications: []
+  setVariableActions: []
+  snmpNotifications: []
+  systemOperations: []
+avgRunTime: 10
+avgRunTimeDisplay: 10 Seconds
+calculateCp: false
+calendar: null
+cpDuration: null
+cpDurationUnit: Minutes
+criticalEndpoints: []
+customField1:
+  label: null
+  value: null
+customField2:
+  label: null
+  value: null
+efDayConstraint: None
+efDuration: 00:00:00:00
+efEnabled: false
+efNthAmount: 5
+efOffsetDuration: null
+efOffsetDurationUnit: Minutes
+efOffsetPercentage: 0
+efOffsetType: Percentage
+efTime: 00:00
+efType: Time
+exclusiveTasks: []
+exclusiveWithSelf: false
+executionRestriction: None
+exportReleaseLevel: 7.3.0.0
+exportTable: ops_task_workflow
+firstRun: 2022-01-28 08:11:55 -0500
+holdResources: false
+lastRun: 2023-08-01 03:30:16 -0400
+lastRunTime: 10
+lastRunTimeDisplay: 10 Seconds
+layoutOption: -- None --
+lfDayConstraint: None
+lfDuration: 00:00:00:00
+lfEnabled: false
+lfNthAmount: 5
+lfOffsetDuration: null
+lfOffsetDurationUnit: Minutes
+lfOffsetPercentage: 0
+lfOffsetType: Percentage
+lfTime: 00:00
+lfType: Time
+logLevel: Inherited
+lsDayConstraint: None
+lsDuration: 00:00:00:00
+lsEnabled: false
+lsNthAmount: 5
+lsTime: 00:00
+lsType: Time
+maxRunTime: 11
+maxRunTimeDisplay: 11 Seconds
+minRunTime: 0
+minRunTimeDisplay: 0 Seconds
+name: Utt Workflow B
+notes: []
+numberOfTasks: 4
+opswiseGroups:
+- Utt
+overrideCalendar: false
+resPriority: 10
+resolveNameImmediately: false
+restrictionPeriod: None
+restrictionPeriodAfterDate: null
+restrictionPeriodAfterTime: null
+restrictionPeriodBeforeDate: null
+restrictionPeriodBeforeTime: null
+restrictionPeriodDateList: []
+retainSysIds: true
+runCount: 9348
+runCriteria:
+- businessDay: false
+  complex: false
+  complexAdjective: Every
+  complexAdjustment: None
+  complexAdjustmentAmount: 1
+  complexAdjustmentType: Day
+  complexNoun:
+    value: Day
+  complexNouns:
+  - value: Day
+  complexNthAmount: 5
+  complexQualifier:
+    value: Year
+  complexQualifiers:
+  - value: Year
+  customDay: false
+  customDayChoice: null
+  description: null
+  evaluateAt: Trigger Time
+  holiday: false
+  holidayAdjustment: None
+  holidayAdjustmentAmount: 1
+  holidayAdjustmentType: Day
+  specificDay: true
+  specificDayFri: false
+  specificDayMon: false
+  specificDaySat: false
+  specificDaySun: false
+  specificDayThu: true
+  specificDayTue: true
+  specificDayWed: false
+  sysId: 6e9bcb668f8d4ad4bdf3d789211c3e98
+  task: Utt Task B3
+  type: Run Criteria
+  variable: false
+  variableName: null
+  variableOp: '='
+  variableValue: null
+  vertexId: Any
+- businessDay: false
+  complex: false
+  complexAdjective: Every
+  complexAdjustment: None
+  complexAdjustmentAmount: 1
+  complexAdjustmentType: Day
+  complexNoun:
+    value: Day
+  complexNouns:
+  - value: Day
+  complexNthAmount: 5
+  complexQualifier:
+    value: Year
+  complexQualifiers:
+  - value: Year
+  customDay: false
+  customDayChoice: null
+  description: null
+  evaluateAt: Trigger Time
+  holiday: false
+  holidayAdjustment: None
+  holidayAdjustmentAmount: 1
+  holidayAdjustmentType: Day
+  specificDay: true
+  specificDayFri: true
+  specificDayMon: true
+  specificDaySat: false
+  specificDaySun: false
+  specificDayThu: false
+  specificDayTue: false
+  specificDayWed: true
+  sysId: 8a5bb79366cb47278c40daf06b1f8507
+  task: Utt Task B2
+  type: Run Criteria
+  variable: false
+  variableName: null
+  variableOp: '='
+  variableValue: null
+  vertexId: Any
+runTime: 91681
+skippedOption: Show Skipped
+startHeld: false
+startHeldReason: null
+stepActions: []
+stepConditions: []
+summary: This is Utt Workflow B
+sysId: 6f95c9f785d247af8fc86e8cacb6dcbd
+timeZonePref: -- System Default --
+twDelayAmount: null
+twDelayDuration: 00:00:00:00
+twDelayType: None
+twWaitAmount: null
+twWaitDayConstraint: None
+twWaitDuration: 00:00:00:00
+twWaitTime: 00:00
+twWaitType: None
+twWorkflowOnly: -- System Default --
+type: taskWorkflow
+userEstimatedDuration: null
+variables: []
+version: 10
+virtualResources: []
+workflowEdges:
+- condition:
+    value: Success
+  sourceId:
+    taskName: Utt Task B1
+    value: '3'
+  straightEdge: true
+  targetId:
+    taskName: Utt Task B2
+    value: '4'
+- condition:
+    value: Success
+  sourceId:
+    taskName: Utt Task B1
+    value: '3'
+  straightEdge: true
+  targetId:
+    taskName: Utt Task B3
+    value: '5'
+- condition:
+    value: Success
+  sourceId:
+    taskName: Utt Task B3
+    value: '5'
+  straightEdge: true
+  targetId:
+    taskName: Utt Delete File
+    value: '2'
+- condition:
+    value: Success
+  sourceId:
+    taskName: Utt Task B2
+    value: '4'
+  straightEdge: true
+  targetId:
+    taskName: Utt Delete File
+    value: '2'
+workflowVertices:
+- alias: null
+  task:
+    value: Utt Delete File
+  vertexId: '2'
+  vertexX: '36'
+  vertexY: '294'
+- alias: null
+  task:
+    value: Utt Task B1
+  vertexId: '3'
+  vertexX: '112.25'
+  vertexY: '30'
+- alias: null
+  task:
+    value: Utt Task B2
+  vertexId: '4'
+  vertexX: '36'
+  vertexY: '162'
+- alias: null
+  task:
+    value: Utt Task B3
+  vertexId: '5'
+  vertexX: '188.5'
+  vertexY: '162'
