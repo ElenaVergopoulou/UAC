@@ -1,0 +1,16 @@
+bcc: null
+body: ${ops_task_name} is a manual task that requires attention.
+cc: null
+connection: UAC Email Connection
+description: This is an email template for manual tasks
+exportReleaseLevel: 7.3.0.0
+exportTable: ops_email_template
+opswiseGroups:
+- Utt
+replyTo: null
+retainSysIds: true
+subject: A Manual Task Requires Attention
+sysId: 6f4b2741a9bf497aa3684e6d0b103ee3
+templateName: Utt Manual Email Template
+to: gary.utt@stonebranch.com
+version: 3
