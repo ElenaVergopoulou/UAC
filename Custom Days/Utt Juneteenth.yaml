@@ -1,0 +1,27 @@
+adjustment: None
+adjustmentAmount: 1
+adjustmentType: Day
+category: Holiday
+comments: This is a holiday
+ctype: Absolute Repeating Date
+date: null
+dateList: []
+day: 19
+dayofweek: Sun
+exportReleaseLevel: 7.3.0.0
+exportTable: ops_custom_day
+holiday: true
+month: Jun
+name: Utt Juneteenth
+nthAmount: 1
+nthType: Day
+observedRules:
+- actualDayOfWeek: Sat
+  observedDayOfWeek: Fri
+- actualDayOfWeek: Sun
+  observedDayOfWeek: Mon
+period: false
+relfreq: 1st
+retainSysIds: true
+sysId: 8ec8ba5b289745f2993016d5c13ab175
+version: 2
