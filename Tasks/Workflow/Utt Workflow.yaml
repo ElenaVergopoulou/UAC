@@ -1,0 +1,155 @@
+actions:
+  abortActions: []
+  emailNotifications: []
+  setVariableActions: []
+  snmpNotifications: []
+  systemOperations: []
+avgRunTime: 15
+avgRunTimeDisplay: 15 Seconds
+calculateCp: false
+calendar: null
+cpDuration: null
+cpDurationUnit: Minutes
+criticalEndpoints: []
+customField1:
+  label: null
+  value: null
+customField2:
+  label: null
+  value: null
+efDayConstraint: None
+efDuration: 00:00:00:00
+efEnabled: false
+efNthAmount: 5
+efOffsetDuration: null
+efOffsetDurationUnit: Minutes
+efOffsetPercentage: 0
+efOffsetType: Percentage
+efTime: 00:00
+efType: Time
+exclusiveTasks: []
+exclusiveWithSelf: false
+executionRestriction: None
+exportReleaseLevel: 7.4.1.0
+exportTable: ops_task_workflow
+firstRun: 2023-09-11 15:15:02 -0300
+holdResources: false
+lastRun: 2023-09-11 15:16:18 -0300
+lastRunTime: 30
+lastRunTimeDisplay: 30 Seconds
+layoutOption: -- None --
+lfDayConstraint: None
+lfDuration: 00:00:00:00
+lfEnabled: false
+lfNthAmount: 5
+lfOffsetDuration: null
+lfOffsetDurationUnit: Minutes
+lfOffsetPercentage: 0
+lfOffsetType: Percentage
+lfTime: 00:00
+lfType: Time
+logLevel: Inherited
+lsDayConstraint: None
+lsDuration: 00:00:00:00
+lsEnabled: false
+lsNthAmount: 5
+lsTime: 00:00
+lsType: Time
+maxRunTime: 30
+maxRunTimeDisplay: 30 Seconds
+minRunTime: 0
+minRunTimeDisplay: 0 Seconds
+name: Utt Workflow
+notes: []
+numberOfTasks: 4
+opswiseGroups:
+- Utt
+overrideCalendar: false
+resPriority: 10
+resolveNameImmediately: false
+restrictionPeriod: None
+restrictionPeriodAfterDate: null
+restrictionPeriodAfterTime: null
+restrictionPeriodBeforeDate: null
+restrictionPeriodBeforeTime: null
+restrictionPeriodDateList: []
+retainSysIds: true
+runCount: 2
+runCriteria: []
+runTime: 30
+simulation: false
+skippedOption: Show Skipped
+startHeld: false
+startHeldReason: null
+stepActions: []
+stepConditions: []
+summary: null
+sysId: 1f09e8d204b84377915c11a64fb828d1
+timeZonePref: -- System Default --
+twDelayAmount: null
+twDelayDuration: 00:00:00:00
+twDelayType: None
+twWaitAmount: null
+twWaitDayConstraint: None
+twWaitDuration: 00:00:00:00
+twWaitTime: 00:00
+twWaitType: None
+twWorkflowOnly: -- System Default --
+type: taskWorkflow
+userEstimatedDuration: null
+variables: []
+version: 2
+virtualResources: []
+workflowEdges:
+- condition:
+    value: Success
+  sourceId:
+    taskName: Utt Task A
+    value: '2'
+  straightEdge: true
+  targetId:
+    taskName: Utt Task B
+    value: '3'
+- condition:
+    value: Success
+  sourceId:
+    taskName: Utt Task B
+    value: '3'
+  straightEdge: true
+  targetId:
+    taskName: Utt Task C
+    value: '4'
+- condition:
+    value: Success
+  sourceId:
+    taskName: Utt Task C
+    value: '4'
+  straightEdge: true
+  targetId:
+    taskName: Utt Task D
+    value: '5'
+workflowVertices:
+- alias: null
+  task:
+    value: Utt Task A
+  vertexId: '2'
+  vertexX: '25'
+  vertexY: '30'
+- alias: null
+  task:
+    value: Utt Task B
+  vertexId: '3'
+  vertexX: '25'
+  vertexY: '162'
+- alias: null
+  task:
+    value: Utt Task C
+  vertexId: '4'
+  vertexX: '25'
+  vertexY: '294'
+- alias: null
+  task:
+    value: Utt Task D
+  vertexId: '5'
+  vertexX: '25'
+  vertexY: '426'
