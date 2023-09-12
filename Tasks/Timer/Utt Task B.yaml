@@ -1,0 +1,88 @@
+actions:
+  abortActions: []
+  emailNotifications: []
+  setVariableActions: []
+  snmpNotifications: []
+  systemOperations: []
+avgRunTime: 10
+avgRunTimeDisplay: 10 Seconds
+cpDuration: null
+cpDurationUnit: Minutes
+customField1:
+  label: null
+  value: null
+customField2:
+  label: null
+  value: null
+efDayConstraint: None
+efDuration: 00:00:00:00
+efEnabled: false
+efNthAmount: 5
+efOffsetDuration: null
+efOffsetDurationUnit: Minutes
+efOffsetPercentage: 0
+efOffsetType: Percentage
+efTime: 00:00
+efType: Time
+exclusiveTasks: []
+exclusiveWithSelf: false
+executionRestriction: None
+exportReleaseLevel: 7.4.1.0
+exportTable: ops_task_sleep
+firstRun: 2023-09-11 15:16:03 -0300
+holdResources: false
+lastRun: 2023-09-11 15:16:03 -0300
+lastRunTime: 10
+lastRunTimeDisplay: 10 Seconds
+lfDayConstraint: None
+lfDuration: 00:00:00:00
+lfEnabled: false
+lfNthAmount: 5
+lfOffsetDuration: null
+lfOffsetDurationUnit: Minutes
+lfOffsetPercentage: 0
+lfOffsetType: Percentage
+lfTime: 00:00
+lfType: Time
+logLevel: Inherited
+lsDayConstraint: None
+lsDuration: 00:00:00:00
+lsEnabled: false
+lsNthAmount: 5
+lsTime: 00:00
+lsType: Time
+maxRunTime: 10
+maxRunTimeDisplay: 10 Seconds
+minRunTime: 10
+minRunTimeDisplay: 10 Seconds
+name: Utt Task B
+notes: []
+opswiseGroups:
+- Utt
+resPriority: 10
+resolveNameImmediately: false
+restrictionPeriod: None
+restrictionPeriodAfterDate: null
+restrictionPeriodAfterTime: null
+restrictionPeriodBeforeDate: null
+restrictionPeriodBeforeTime: null
+restrictionPeriodDateList: []
+retainSysIds: true
+runCount: 1
+runTime: 10
+simulation: false
+sleepAmount: '10'
+sleepDayConstraint: None
+sleepDuration: 00:00:00:00
+sleepTime: 00:00
+sleepType: Seconds
+startHeld: false
+startHeldReason: null
+summary: This is a test task B
+sysId: d5befadf121b4e46aadfe35ad2fde8d6
+timeZonePref: -- System Default --
+type: taskSleep
+userEstimatedDuration: null
+variables: []
+version: 3
+virtualResources: []
